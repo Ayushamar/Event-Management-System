@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="icon" href="Logo.png">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form action="index.html">
+        <fieldset>
+            <legend>Sign up</legend>
+            <label for="fname">Enter first name</label><br>
+            <input type="text" id="faname" required ><br><br>
+            <label for="lname">Enter Last name</label><br>
+            <input type="text" id="laname" required ><br><br>
+            <label for="pno">Phone Number</label><br>
+            <input id="pno" type="text" placeholder="XXXXXXXXXX" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+            <a href="#">Click to get OTP</a><br><br>
+            <label id="l1" for="otp">Enter OTP</label><br>
+            <input type="text" id="otp" required ><br><br>
+        </fieldset>
+        <input type="submit" id="sub">
+    </form>
+</body>
+</html>

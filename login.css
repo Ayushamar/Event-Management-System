@@ -1,0 +1,39 @@
+form{
+    background-color: bisque;
+    border: 2px solid grey;
+    width: 450px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 12%;
+    justify-content: center;
+}
+legend{
+    font-size: 35px;
+    color: rgb(49, 16, 195);
+    text-shadow: 2px 2px 6px grey;
+
+}
+#password{
+    font-size: 25px;
+}
+#pnumber{
+    font-size: 25px;
+}
+label{
+    font-size: 25px;
+    color: cadetblue;
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    border: 2px solid blue;
+    background-color: blue;
+    margin-left: 38%;
+}
+body{
+    border: 2px solid grey;
+    width: 1500px;
+    height: 800px;
+    background-image: linear-gradient(lightgrey,bisque,pink);
+}
